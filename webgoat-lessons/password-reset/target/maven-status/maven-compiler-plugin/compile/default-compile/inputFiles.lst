@@ -1,0 +1,9 @@
+/root/cod-webgoat/WebGoat/webgoat-lessons/password-reset/src/main/java/org/owasp/webgoat/password_reset/resetlink/PasswordChangeForm.java
+/root/cod-webgoat/WebGoat/webgoat-lessons/password-reset/src/main/java/org/owasp/webgoat/password_reset/SimpleMailAssignment.java
+/root/cod-webgoat/WebGoat/webgoat-lessons/password-reset/src/main/java/org/owasp/webgoat/password_reset/ResetLinkAssignment.java
+/root/cod-webgoat/WebGoat/webgoat-lessons/password-reset/src/main/java/org/owasp/webgoat/password_reset/ResetLinkAssignmentForgotPassword.java
+/root/cod-webgoat/WebGoat/webgoat-lessons/password-reset/src/main/java/org/owasp/webgoat/password_reset/PasswordResetEmail.java
+/root/cod-webgoat/WebGoat/webgoat-lessons/password-reset/src/main/java/org/owasp/webgoat/password_reset/SecurityQuestionAssignment.java
+/root/cod-webgoat/WebGoat/webgoat-lessons/password-reset/src/main/java/org/owasp/webgoat/password_reset/PasswordReset.java
+/root/cod-webgoat/WebGoat/webgoat-lessons/password-reset/src/main/java/org/owasp/webgoat/password_reset/TriedQuestions.java
+/root/cod-webgoat/WebGoat/webgoat-lessons/password-reset/src/main/java/org/owasp/webgoat/password_reset/QuestionsAssignment.java

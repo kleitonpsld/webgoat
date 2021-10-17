@@ -1,0 +1,8 @@
+/root/cod-webgoat/WebGoat/webgoat-lessons/idor/src/main/java/org/owasp/webgoat/idor/IDOR.java
+/root/cod-webgoat/WebGoat/webgoat-lessons/idor/src/main/java/org/owasp/webgoat/idor/IDORViewOwnProfileAltUrl.java
+/root/cod-webgoat/WebGoat/webgoat-lessons/idor/src/main/java/org/owasp/webgoat/idor/IDORLogin.java
+/root/cod-webgoat/WebGoat/webgoat-lessons/idor/src/main/java/org/owasp/webgoat/idor/IDORDiffAttributes.java
+/root/cod-webgoat/WebGoat/webgoat-lessons/idor/src/main/java/org/owasp/webgoat/idor/IDOREditOtherProfiile.java
+/root/cod-webgoat/WebGoat/webgoat-lessons/idor/src/main/java/org/owasp/webgoat/idor/IDORViewOwnProfile.java
+/root/cod-webgoat/WebGoat/webgoat-lessons/idor/src/main/java/org/owasp/webgoat/idor/IDORViewOtherProfile.java
+/root/cod-webgoat/WebGoat/webgoat-lessons/idor/src/main/java/org/owasp/webgoat/idor/UserProfile.java

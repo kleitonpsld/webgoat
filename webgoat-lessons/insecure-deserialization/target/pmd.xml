@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.29.0" timestamp="2021-10-16T18:42:27.337">
+<file name="/root/cod-webgoat/WebGoat/webgoat-lessons/insecure-deserialization/src/main/java/org/owasp/webgoat/deserialization/SerializationHelper.java">
+<violation beginline="28" endline="28" begincolumn="42" endcolumn="62" rule="AvoidInMemoryStreamingDefaultConstructor" ruleset="jpinpoint-rules" package="org.owasp.webgoat.deserialization" class="SerializationHelper" method="toString" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-ISIO01" priority="2">
+Default capacity constructor of ByteArrayOutputStream or StringWriter is used, it usually needs expensive expansions.
+</violation>
+<violation beginline="36" endline="36" begincolumn="42" endcolumn="62" rule="AvoidInMemoryStreamingDefaultConstructor" ruleset="jpinpoint-rules" package="org.owasp.webgoat.deserialization" class="SerializationHelper" method="show" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-ISIO01" priority="2">
+Default capacity constructor of ByteArrayOutputStream or StringWriter is used, it usually needs expensive expansions.
+</violation>
+</file>
+</pmd>

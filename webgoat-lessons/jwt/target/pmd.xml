@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.29.0" timestamp="2021-10-16T18:42:30.719">
+<file name="/root/cod-webgoat/WebGoat/webgoat-lessons/jwt/src/main/java/org/owasp/webgoat/jwt/JWTRefreshEndpoint.java">
+<violation beginline="50" endline="50" begincolumn="60" endcolumn="76" rule="AvoidMutableStaticFields" ruleset="jpinpoint-rules" package="org.owasp.webgoat.jwt" class="JWTRefreshEndpoint" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC08" priority="2">
+Avoid non-final or mutable static fields. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+</file>
+<file name="/root/cod-webgoat/WebGoat/webgoat-lessons/jwt/src/main/java/org/owasp/webgoat/jwt/JWTSecretKeyEndpoint.java">
+<violation beginline="50" endline="50" begincolumn="25" endcolumn="30" rule="AvoidMutableStaticFields" ruleset="jpinpoint-rules" package="org.owasp.webgoat.jwt" class="JWTSecretKeyEndpoint" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC08" priority="2">
+Avoid non-final or mutable static fields. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+<violation beginline="50" endline="50" begincolumn="44" endcolumn="105" rule="AvoidMutableStaticFields" ruleset="jpinpoint-rules" package="org.owasp.webgoat.jwt" class="JWTSecretKeyEndpoint" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC08" priority="2">
+Avoid non-final or mutable static fields. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+<violation beginline="61" endline="61" begincolumn="30" endcolumn="49" rule="AvoidCalendarDateCreation" ruleset="jpinpoint-rules" package="org.owasp.webgoat.jwt" class="JWTSecretKeyEndpoint" method="getSecretToken" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_performance.html#AvoidCalendarDateCreation" priority="2">
+A Calendar is used to create a Date or DateTime, this is expensive.
+</violation>
+</file>
+<file name="/root/cod-webgoat/WebGoat/webgoat-lessons/jwt/src/main/java/org/owasp/webgoat/jwt/JWTVotesEndpoint.java">
+<violation beginline="64" endline="64" begincolumn="20" endcolumn="59" rule="AvoidMutableStaticFields" ruleset="jpinpoint-rules" package="org.owasp.webgoat.jwt" class="JWTVotesEndpoint" variable="VariableDeclaratorId" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC08" priority="2">
+Avoid non-final or mutable static fields. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+<violation beginline="66" endline="66" begincolumn="20" endcolumn="42" rule="AvoidMutableStaticFields" ruleset="jpinpoint-rules" package="org.owasp.webgoat.jwt" class="JWTVotesEndpoint" variable="VariableDeclaratorId" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC08" priority="2">
+Avoid non-final or mutable static fields. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+</file>
+</pmd>
