@@ -1,0 +1,5 @@
+/root/cod-webgoat/WebGoat/webwolf/src/test/java/org/owasp/webwolf/mailbox/MailboxControllerTest.java
+/root/cod-webgoat/WebGoat/webwolf/src/test/java/org/owasp/webwolf/user/UserServiceTest.java
+/root/cod-webgoat/WebGoat/webwolf/src/test/java/org/owasp/webwolf/jwt/JWTTokenTest.java
+/root/cod-webgoat/WebGoat/webwolf/src/test/java/org/owasp/webwolf/mailbox/MailboxRepositoryTest.java
+/root/cod-webgoat/WebGoat/webwolf/src/test/java/org/owasp/webwolf/user/UserValidatorTest.java

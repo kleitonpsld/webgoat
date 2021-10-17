@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.29.0" timestamp="2021-10-16T18:41:58.302">
+<file name="/root/cod-webgoat/WebGoat/webgoat-container/src/main/java/org/owasp/webgoat/AsciiDoctorTemplateResolver.java">
+<violation beginline="88" endline="88" begincolumn="43" endcolumn="54" rule="AvoidInMemoryStreamingDefaultConstructor" ruleset="jpinpoint-rules" package="org.owasp.webgoat" class="AsciiDoctorTemplateResolver" method="computeTemplateResource" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-ISIO01" priority="2">
+Default capacity constructor of ByteArrayOutputStream or StringWriter is used, it usually needs expensive expansions.
+</violation>
+</file>
+<file name="/root/cod-webgoat/WebGoat/webgoat-container/src/main/java/org/owasp/webgoat/WebSecurityConfig.java">
+<violation beginline="95" endline="95" begincolumn="23" endcolumn="35" rule="UsingSuppressWarnings" ruleset="jpinpoint-rules" package="org.owasp.webgoat" class="WebSecurityConfig" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance" priority="4">
+Using SuppressWarnings.
+</violation>
+</file>
+<file name="/root/cod-webgoat/WebGoat/webgoat-container/src/main/java/org/owasp/webgoat/asciidoc/EnvironmentExposure.java">
+<violation beginline="15" endline="15" begincolumn="20" endcolumn="46" rule="AvoidMutableStaticFields" ruleset="jpinpoint-rules" package="org.owasp.webgoat.asciidoc" class="EnvironmentExposure" variable="VariableDeclaratorId" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC08" priority="2">
+Avoid non-final or mutable static fields. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+<violation beginline="15" endline="15" begincolumn="20" endcolumn="46" rule="AvoidUnguardedMutableFieldsInSharedObjects" ruleset="jpinpoint-rules" package="org.owasp.webgoat.asciidoc" class="EnvironmentExposure" variable="VariableDeclaratorId" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC07" priority="2">
+Avoid unguarded non-final or mutable fields in objects shared among threads. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+<violation beginline="23" endline="23" begincolumn="9" endcolumn="15" rule="AvoidUnguardedAssignmentToNonFinalFieldsInSharedObjects" ruleset="jpinpoint-rules" package="org.owasp.webgoat.asciidoc" class="EnvironmentExposure" method="setApplicationContext" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC07" priority="2">
+Avoid unguarded assignments to non-final fields in objects shared among threads. Access thread-safely and use @GuardedBy.
+</violation>
+</file>
+<file name="/root/cod-webgoat/WebGoat/webgoat-container/src/main/java/org/owasp/webgoat/lessons/Lesson.java">
+<violation beginline="35" endline="35" begincolumn="20" endcolumn="33" rule="AvoidMutableStaticFields" ruleset="jpinpoint-rules" package="org.owasp.webgoat.lessons" class="Lesson" variable="VariableDeclaratorId" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC08" priority="2">
+Avoid non-final or mutable static fields. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+</file>
+<file name="/root/cod-webgoat/WebGoat/webgoat-container/src/main/java/org/owasp/webgoat/lessons/LessonMenuItem.java">
+<violation beginline="41" endline="166" begincolumn="29" endcolumn="1" rule="ImplementEqualsHashCodeOnValueObjects" ruleset="jpinpoint-rules" package="org.owasp.webgoat.lessons" class="LessonMenuItem" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-IncorrectequalsandhashCode" priority="3">
+Equals and/or hashCode is missing for a value object.
+</violation>
+</file>
+<file name="/root/cod-webgoat/WebGoat/webgoat-container/src/main/java/org/owasp/webgoat/service/LabelDebugService.java">
+<violation beginline="61" endline="61" begincolumn="13" endcolumn="40" rule="AvoidUnguardedMutableFieldsInSharedObjects" ruleset="jpinpoint-rules" package="org.owasp.webgoat.service" class="LabelDebugService" variable="VariableDeclaratorId" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC07" priority="2">
+Avoid unguarded non-final or mutable fields in objects shared among threads. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+</file>
+<file name="/root/cod-webgoat/WebGoat/webgoat-container/src/main/java/org/owasp/webgoat/service/LessonMenuService.java">
+<violation beginline="67" endline="67" begincolumn="13" endcolumn="56" rule="AvoidUnguardedMutableFieldsInSharedObjects" ruleset="jpinpoint-rules" package="org.owasp.webgoat.service" class="LessonMenuService" variable="VariableDeclaratorId" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC07" priority="2">
+Avoid unguarded non-final or mutable fields in objects shared among threads. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+</file>
+<file name="/root/cod-webgoat/WebGoat/webgoat-container/src/main/java/org/owasp/webgoat/service/ReportCardService.java">
+<violation beginline="92" endline="92" begincolumn="17" endcolumn="41" rule="AvoidUnguardedMutableFieldsInSharedObjects" ruleset="jpinpoint-rules" package="org.owasp.webgoat.service" class="ReportCardService$ReportCard" variable="VariableDeclaratorId" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC07" priority="2">
+Avoid unguarded non-final or mutable fields in objects shared among threads. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+<violation beginline="93" endline="93" begincolumn="17" endcolumn="45" rule="AvoidUnguardedMutableFieldsInSharedObjects" ruleset="jpinpoint-rules" package="org.owasp.webgoat.service" class="ReportCardService$ReportCard" variable="VariableDeclaratorId" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC07" priority="2">
+Avoid unguarded non-final or mutable fields in objects shared among threads. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+<violation beginline="94" endline="94" begincolumn="17" endcolumn="34" rule="AvoidUnguardedMutableFieldsInSharedObjects" ruleset="jpinpoint-rules" package="org.owasp.webgoat.service" class="ReportCardService$ReportCard" variable="VariableDeclaratorId" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC07" priority="2">
+Avoid unguarded non-final or mutable fields in objects shared among threads. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+<violation beginline="95" endline="95" begincolumn="17" endcolumn="46" rule="AvoidUnguardedMutableFieldsInSharedObjects" ruleset="jpinpoint-rules" package="org.owasp.webgoat.service" class="ReportCardService$ReportCard" variable="VariableDeclaratorId" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC07" priority="2">
+Avoid unguarded non-final or mutable fields in objects shared among threads. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+<violation beginline="96" endline="96" begincolumn="17" endcolumn="42" rule="AvoidUnguardedMutableFieldsInSharedObjects" ruleset="jpinpoint-rules" package="org.owasp.webgoat.service" class="ReportCardService$ReportCard" variable="VariableDeclaratorId" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC07" priority="2">
+Avoid unguarded non-final or mutable fields in objects shared among threads. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+<violation beginline="97" endline="97" begincolumn="17" endcolumn="77" rule="AvoidUnguardedMutableFieldsInSharedObjects" ruleset="jpinpoint-rules" package="org.owasp.webgoat.service" class="ReportCardService$ReportCard" variable="VariableDeclaratorId" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC07" priority="2">
+Avoid unguarded non-final or mutable fields in objects shared among threads. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+<violation beginline="103" endline="103" begincolumn="17" endcolumn="28" rule="AvoidUnguardedMutableFieldsInSharedObjects" ruleset="jpinpoint-rules" package="org.owasp.webgoat.service" class="ReportCardService$LessonStatistics" variable="VariableDeclaratorId" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC07" priority="2">
+Avoid unguarded non-final or mutable fields in objects shared among threads. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+<violation beginline="104" endline="104" begincolumn="17" endcolumn="31" rule="AvoidUnguardedMutableFieldsInSharedObjects" ruleset="jpinpoint-rules" package="org.owasp.webgoat.service" class="ReportCardService$LessonStatistics" variable="VariableDeclaratorId" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC07" priority="2">
+Avoid unguarded non-final or mutable fields in objects shared among threads. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+<violation beginline="105" endline="105" begincolumn="17" endcolumn="37" rule="AvoidUnguardedMutableFieldsInSharedObjects" ruleset="jpinpoint-rules" package="org.owasp.webgoat.service" class="ReportCardService$LessonStatistics" variable="VariableDeclaratorId" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC07" priority="2">
+Avoid unguarded non-final or mutable fields in objects shared among threads. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+</file>
+<file name="/root/cod-webgoat/WebGoat/webgoat-container/src/main/java/org/owasp/webgoat/service/RestartLessonService.java">
+<violation beginline="52" endline="52" begincolumn="19" endcolumn="44" rule="UnconditionalConcatInLogArgument" ruleset="jpinpoint-rules" package="org.owasp.webgoat.service" class="RestartLessonService" method="restartLesson" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-IL01" priority="2">
+String concatenation (+) is executed regardless of log level and can be expensive
+</violation>
+</file>
+<file name="/root/cod-webgoat/WebGoat/webgoat-container/src/main/java/org/owasp/webgoat/session/WebSession.java">
+<violation beginline="40" endline="76" begincolumn="49" endcolumn="1" rule="ImplementEqualsHashCodeOnValueObjects" ruleset="jpinpoint-rules" package="org.owasp.webgoat.session" class="WebSession" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-IncorrectequalsandhashCode" priority="3">
+Equals and/or hashCode is missing for a value object.
+</violation>
+</file>
+<file name="/root/cod-webgoat/WebGoat/webgoat-container/src/main/java/org/owasp/webgoat/users/RegistrationController.java">
+<violation beginline="26" endline="26" begincolumn="13" endcolumn="40" rule="AvoidUnguardedMutableFieldsInSharedObjects" ruleset="jpinpoint-rules" package="org.owasp.webgoat.users" class="RegistrationController" variable="VariableDeclaratorId" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC07" priority="2">
+Avoid unguarded non-final or mutable fields in objects shared among threads. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+<violation beginline="27" endline="27" begincolumn="13" endcolumn="36" rule="AvoidUnguardedMutableFieldsInSharedObjects" ruleset="jpinpoint-rules" package="org.owasp.webgoat.users" class="RegistrationController" variable="VariableDeclaratorId" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC07" priority="2">
+Avoid unguarded non-final or mutable fields in objects shared among threads. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+<violation beginline="28" endline="28" begincolumn="13" endcolumn="56" rule="AvoidUnguardedMutableFieldsInSharedObjects" ruleset="jpinpoint-rules" package="org.owasp.webgoat.users" class="RegistrationController" variable="VariableDeclaratorId" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC07" priority="2">
+Avoid unguarded non-final or mutable fields in objects shared among threads. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.29.0" timestamp="2021-10-16T18:42:09.096">
+<file name="/root/cod-webgoat/WebGoat/webgoat-lessons/client-side-filtering/src/main/java/org/owasp/webgoat/client_side_filtering/Salaries.java">
+<violation beginline="73" endline="73" begincolumn="32" endcolumn="55" rule="AvoidXPathUsage" ruleset="jpinpoint-rules" package="org.owasp.webgoat.client_side_filtering" class="Salaries" method="invoke" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-UX03" priority="3">
+XPath is used. XPath implementation has bad performance.
+</violation>
+<violation beginline="78" endline="78" begincolumn="26" endcolumn="48" rule="AvoidStringBuffer" ruleset="jpinpoint-rules" package="org.owasp.webgoat.client_side_filtering" class="Salaries" method="invoke" variable="sb" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-ISU01" priority="3">
+StringBuffer is used. It introduces locking overhead, use StringBuilder.
+</violation>
+</file>
+</pmd>

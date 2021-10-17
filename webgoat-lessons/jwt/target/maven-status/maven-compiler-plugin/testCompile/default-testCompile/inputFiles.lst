@@ -1,0 +1,6 @@
+/root/cod-webgoat/WebGoat/webgoat-lessons/jwt/src/test/java/org/owasp/webgoat/jwt/JWTRefreshEndpointTest.java
+/root/cod-webgoat/WebGoat/webgoat-lessons/jwt/src/test/java/org/owasp/webgoat/jwt/JWTDecodeEndpointTest.java
+/root/cod-webgoat/WebGoat/webgoat-lessons/jwt/src/test/java/org/owasp/webgoat/jwt/JWTFinalEndpointTest.java
+/root/cod-webgoat/WebGoat/webgoat-lessons/jwt/src/test/java/org/owasp/webgoat/jwt/JWTVotesEndpointTest.java
+/root/cod-webgoat/WebGoat/webgoat-lessons/jwt/src/test/java/org/owasp/webgoat/jwt/TokenTest.java
+/root/cod-webgoat/WebGoat/webgoat-lessons/jwt/src/test/java/org/owasp/webgoat/jwt/JWTSecretKeyEndpointTest.java

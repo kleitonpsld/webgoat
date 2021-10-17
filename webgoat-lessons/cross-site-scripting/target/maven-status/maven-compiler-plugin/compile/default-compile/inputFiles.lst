@@ -1,0 +1,14 @@
+/root/cod-webgoat/WebGoat/webgoat-lessons/cross-site-scripting/src/main/java/org/owasp/webgoat/xss/CrossSiteScriptingLesson1.java
+/root/cod-webgoat/WebGoat/webgoat-lessons/cross-site-scripting/src/main/java/org/owasp/webgoat/xss/DOMCrossSiteScripting.java
+/root/cod-webgoat/WebGoat/webgoat-lessons/cross-site-scripting/src/main/java/org/owasp/webgoat/xss/Comment.java
+/root/cod-webgoat/WebGoat/webgoat-lessons/cross-site-scripting/src/main/java/org/owasp/webgoat/xss/mitigation/CrossSiteScriptingMitigation.java
+/root/cod-webgoat/WebGoat/webgoat-lessons/cross-site-scripting/src/main/java/org/owasp/webgoat/xss/CrossSiteScriptingQuiz.java
+/root/cod-webgoat/WebGoat/webgoat-lessons/cross-site-scripting/src/main/java/org/owasp/webgoat/xss/stored/CrossSiteScriptingStored.java
+/root/cod-webgoat/WebGoat/webgoat-lessons/cross-site-scripting/src/main/java/org/owasp/webgoat/xss/CrossSiteScriptingLesson3.java
+/root/cod-webgoat/WebGoat/webgoat-lessons/cross-site-scripting/src/main/java/org/owasp/webgoat/xss/CrossSiteScriptingLesson5a.java
+/root/cod-webgoat/WebGoat/webgoat-lessons/cross-site-scripting/src/main/java/org/owasp/webgoat/xss/DOMCrossSiteScriptingVerifier.java
+/root/cod-webgoat/WebGoat/webgoat-lessons/cross-site-scripting/src/main/java/org/owasp/webgoat/xss/stored/StoredCrossSiteScriptingVerifier.java
+/root/cod-webgoat/WebGoat/webgoat-lessons/cross-site-scripting/src/main/java/org/owasp/webgoat/xss/CrossSiteScripting.java
+/root/cod-webgoat/WebGoat/webgoat-lessons/cross-site-scripting/src/main/java/org/owasp/webgoat/xss/stored/StoredXssComments.java
+/root/cod-webgoat/WebGoat/webgoat-lessons/cross-site-scripting/src/main/java/org/owasp/webgoat/xss/CrossSiteScriptingLesson6a.java
+/root/cod-webgoat/WebGoat/webgoat-lessons/cross-site-scripting/src/main/java/org/owasp/webgoat/xss/CrossSiteScriptingLesson4.java
