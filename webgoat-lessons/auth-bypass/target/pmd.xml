@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.29.0" timestamp="2021-10-16T18:42:43.191">
+<file name="/root/cod-webgoat/WebGoat/webgoat-lessons/auth-bypass/src/main/java/org/owasp/webgoat/auth_bypass/AccountVerificationHelper.java">
+<violation beginline="35" endline="35" begincolumn="65" endcolumn="79" rule="AvoidMutableStaticFields" ruleset="jpinpoint-rules" package="org.owasp.webgoat.auth_bypass" class="AccountVerificationHelper" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC08" priority="2">
+Avoid non-final or mutable static fields. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+<violation beginline="42" endline="42" begincolumn="63" endcolumn="77" rule="AvoidMutableStaticFields" ruleset="jpinpoint-rules" package="org.owasp.webgoat.auth_bypass" class="AccountVerificationHelper" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC08" priority="2">
+Avoid non-final or mutable static fields. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+</file>
+</pmd>

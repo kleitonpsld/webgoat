@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.29.0" timestamp="2021-10-16T18:42:48.586">
+<file name="/root/cod-webgoat/WebGoat/webgoat-lessons/password-reset/src/main/java/org/owasp/webgoat/password_reset/QuestionsAssignment.java">
+<violation beginline="43" endline="43" begincolumn="55" endcolumn="69" rule="AvoidMutableStaticFields" ruleset="jpinpoint-rules" package="org.owasp.webgoat.password_reset" class="QuestionsAssignment" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC08" priority="2">
+Avoid non-final or mutable static fields. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+</file>
+<file name="/root/cod-webgoat/WebGoat/webgoat-lessons/password-reset/src/main/java/org/owasp/webgoat/password_reset/ResetLinkAssignment.java">
+<violation beginline="50" endline="50" begincolumn="12" endcolumn="68" rule="AvoidMutableStaticFields" ruleset="jpinpoint-rules" package="org.owasp.webgoat.password_reset" class="ResetLinkAssignment" variable="VariableDeclaratorId" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC08" priority="2">
+Avoid non-final or mutable static fields. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+<violation beginline="50" endline="50" begincolumn="53" endcolumn="67" rule="AvoidMutableStaticFields" ruleset="jpinpoint-rules" package="org.owasp.webgoat.password_reset" class="ResetLinkAssignment" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC08" priority="2">
+Avoid non-final or mutable static fields. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+<violation beginline="51" endline="51" begincolumn="12" endcolumn="70" rule="AvoidMutableStaticFields" ruleset="jpinpoint-rules" package="org.owasp.webgoat.password_reset" class="ResetLinkAssignment" variable="VariableDeclaratorId" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC08" priority="2">
+Avoid non-final or mutable static fields. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+<violation beginline="52" endline="52" begincolumn="12" endcolumn="55" rule="AvoidMutableStaticFields" ruleset="jpinpoint-rules" package="org.owasp.webgoat.password_reset" class="ResetLinkAssignment" variable="VariableDeclaratorId" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC08" priority="2">
+Avoid non-final or mutable static fields. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+<violation beginline="52" endline="52" begincolumn="38" endcolumn="54" rule="AvoidMutableStaticFields" ruleset="jpinpoint-rules" package="org.owasp.webgoat.password_reset" class="ResetLinkAssignment" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC08" priority="2">
+Avoid non-final or mutable static fields. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+</file>
+<file name="/root/cod-webgoat/WebGoat/webgoat-lessons/password-reset/src/main/java/org/owasp/webgoat/password_reset/SecurityQuestionAssignment.java">
+<violation beginline="47" endline="47" begincolumn="20" endcolumn="49" rule="AvoidMutableStaticFields" ruleset="jpinpoint-rules" package="org.owasp.webgoat.password_reset" class="SecurityQuestionAssignment" variable="VariableDeclaratorId" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC08" priority="2">
+Avoid non-final or mutable static fields. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+<violation beginline="50" endline="50" begincolumn="21" endcolumn="35" rule="AvoidMutableStaticFields" ruleset="jpinpoint-rules" package="org.owasp.webgoat.password_reset" class="SecurityQuestionAssignment" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC08" priority="2">
+Avoid non-final or mutable static fields. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+</file>
+<file name="/root/cod-webgoat/WebGoat/webgoat-lessons/password-reset/src/main/java/org/owasp/webgoat/password_reset/TriedQuestions.java">
+<violation beginline="35" endline="35" begincolumn="13" endcolumn="60" rule="AvoidUnguardedMutableFieldsInSharedObjects" ruleset="jpinpoint-rules" package="org.owasp.webgoat.password_reset" class="TriedQuestions" variable="VariableDeclaratorId" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC07" priority="2">
+Avoid unguarded non-final or mutable fields in objects shared among threads. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+</file>
+</pmd>

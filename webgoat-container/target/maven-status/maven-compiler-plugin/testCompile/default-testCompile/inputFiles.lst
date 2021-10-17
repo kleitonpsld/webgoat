@@ -1,0 +1,17 @@
+/root/cod-webgoat/WebGoat/webgoat-container/src/test/java/org/owasp/webgoat/plugins/LessonTest.java
+/root/cod-webgoat/WebGoat/webgoat-container/src/test/java/org/owasp/webgoat/session/LabelDebuggerTest.java
+/root/cod-webgoat/WebGoat/webgoat-container/src/test/java/org/owasp/webgoat/service/LessonMenuServiceTest.java
+/root/cod-webgoat/WebGoat/webgoat-container/src/test/java/org/owasp/webgoat/users/UserServiceTest.java
+/root/cod-webgoat/WebGoat/webgoat-container/src/test/java/org/owasp/webgoat/TestApplication.java
+/root/cod-webgoat/WebGoat/webgoat-container/src/test/java/org/owasp/webgoat/util/LabelManagerImplTest.java
+/root/cod-webgoat/WebGoat/webgoat-container/src/test/java/org/owasp/webgoat/users/UserTrackerRepositoryTest.java
+/root/cod-webgoat/WebGoat/webgoat-container/src/test/java/org/owasp/webgoat/session/LessonTrackerTest.java
+/root/cod-webgoat/WebGoat/webgoat-container/src/test/java/org/owasp/webgoat/assignments/AssignmentEndpointTest.java
+/root/cod-webgoat/WebGoat/webgoat-container/src/test/java/org/owasp/webgoat/service/LabelServiceTest.java
+/root/cod-webgoat/WebGoat/webgoat-container/src/test/java/org/owasp/webgoat/service/ReportCardServiceTest.java
+/root/cod-webgoat/WebGoat/webgoat-container/src/test/java/org/owasp/webgoat/service/LessonProgressServiceTest.java
+/root/cod-webgoat/WebGoat/webgoat-container/src/test/java/org/owasp/webgoat/plugins/PluginTest.java
+/root/cod-webgoat/WebGoat/webgoat-container/src/test/java/org/owasp/webgoat/users/UserValidatorTest.java
+/root/cod-webgoat/WebGoat/webgoat-container/src/test/java/org/owasp/webgoat/users/UserRepositoryTest.java
+/root/cod-webgoat/WebGoat/webgoat-container/src/test/java/org/owasp/webgoat/service/HintServiceTest.java
+/root/cod-webgoat/WebGoat/webgoat-container/src/test/java/org/owasp/webgoat/session/CourseTest.java

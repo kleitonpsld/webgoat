@@ -1,0 +1,14 @@
+org/owasp/webgoat/xss/DOMCrossSiteScripting.class
+org/owasp/webgoat/xss/stored/StoredXssComments.class
+org/owasp/webgoat/xss/CrossSiteScriptingLesson3.class
+org/owasp/webgoat/xss/CrossSiteScriptingLesson5a.class
+org/owasp/webgoat/xss/CrossSiteScripting.class
+org/owasp/webgoat/xss/mitigation/CrossSiteScriptingMitigation.class
+org/owasp/webgoat/xss/Comment.class
+org/owasp/webgoat/xss/stored/CrossSiteScriptingStored.class
+org/owasp/webgoat/xss/DOMCrossSiteScriptingVerifier.class
+org/owasp/webgoat/xss/stored/StoredCrossSiteScriptingVerifier.class
+org/owasp/webgoat/xss/CrossSiteScriptingLesson6a.class
+org/owasp/webgoat/xss/CrossSiteScriptingQuiz.class
+org/owasp/webgoat/xss/CrossSiteScriptingLesson1.class
+org/owasp/webgoat/xss/CrossSiteScriptingLesson4.class

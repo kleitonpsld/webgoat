@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.29.0" timestamp="2021-10-16T18:42:46.931">
+<file name="/root/cod-webgoat/WebGoat/webgoat-lessons/csrf/src/main/java/org/owasp/webgoat/csrf/ForgedReviews.java">
+<violation beginline="48" endline="48" begincolumn="20" endcolumn="93" rule="AvoidMutableStaticFields" ruleset="jpinpoint-rules" package="org.owasp.webgoat.csrf" class="ForgedReviews" variable="VariableDeclaratorId" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC08" priority="2">
+Avoid non-final or mutable static fields. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+<violation beginline="48" endline="48" begincolumn="20" endcolumn="36" rule="AvoidRecreatingDateTimeFormatter" ruleset="jpinpoint-rules" package="org.owasp.webgoat.csrf" class="ForgedReviews" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-IDTF02" priority="2">
+Avoid recreating DateTimeFormatter, it is relatively expensive.
+</violation>
+<violation beginline="50" endline="50" begincolumn="66" endcolumn="80" rule="AvoidMutableStaticFields" ruleset="jpinpoint-rules" package="org.owasp.webgoat.csrf" class="ForgedReviews" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC08" priority="2">
+Avoid non-final or mutable static fields. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+<violation beginline="51" endline="51" begincolumn="49" endcolumn="65" rule="AvoidMutableStaticFields" ruleset="jpinpoint-rules" package="org.owasp.webgoat.csrf" class="ForgedReviews" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC08" priority="2">
+Avoid non-final or mutable static fields. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+</file>
+</pmd>

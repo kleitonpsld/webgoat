@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.29.0" timestamp="2021-10-16T18:43:02.943">
+<file name="/root/cod-webgoat/WebGoat/webwolf/src/main/java/org/owasp/webwolf/jwt/JWTToken.java">
+<violation beginline="48" endline="48" begincolumn="26" endcolumn="37" rule="ObjectMapperCreatedForEachMethodCall" ruleset="jpinpoint-rules" package="org.owasp.webwolf.jwt" class="JWTToken" method="parse" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-IUOJAR01" priority="2">
+An ObjectMapper is created for each method call, which is expensive.
+</violation>
+<violation beginline="57" endline="57" begincolumn="26" endcolumn="37" rule="ObjectMapperCreatedForEachMethodCall" ruleset="jpinpoint-rules" package="org.owasp.webwolf.jwt" class="JWTToken" method="write" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-IUOJAR01" priority="2">
+An ObjectMapper is created for each method call, which is expensive.
+</violation>
+</file>
+<file name="/root/cod-webgoat/WebGoat/webwolf/src/main/java/org/owasp/webwolf/user/RegistrationController.java">
+<violation beginline="47" endline="47" begincolumn="13" endcolumn="40" rule="AvoidUnguardedMutableFieldsInSharedObjects" ruleset="jpinpoint-rules" package="org.owasp.webwolf.user" class="RegistrationController" variable="VariableDeclaratorId" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC07" priority="2">
+Avoid unguarded non-final or mutable fields in objects shared among threads. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+<violation beginline="48" endline="48" begincolumn="13" endcolumn="36" rule="AvoidUnguardedMutableFieldsInSharedObjects" ruleset="jpinpoint-rules" package="org.owasp.webwolf.user" class="RegistrationController" variable="VariableDeclaratorId" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC07" priority="2">
+Avoid unguarded non-final or mutable fields in objects shared among threads. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+<violation beginline="49" endline="49" begincolumn="13" endcolumn="56" rule="AvoidUnguardedMutableFieldsInSharedObjects" ruleset="jpinpoint-rules" package="org.owasp.webwolf.user" class="RegistrationController" variable="VariableDeclaratorId" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC07" priority="2">
+Avoid unguarded non-final or mutable fields in objects shared among threads. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+</file>
+<file name="/root/cod-webgoat/WebGoat/webwolf/src/main/java/org/owasp/webwolf/user/UserService.java">
+<violation beginline="39" endline="39" begincolumn="13" endcolumn="42" rule="AvoidUnguardedMutableFieldsInSharedObjects" ruleset="jpinpoint-rules" package="org.owasp.webwolf.user" class="UserService" variable="VariableDeclaratorId" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-TUTC07" priority="2">
+Avoid unguarded non-final or mutable fields in objects shared among threads. Make final immutable or access thread-safely and use @GuardedBy.
+</violation>
+</file>
+</pmd>

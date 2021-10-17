@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.29.0" timestamp="2021-10-16T18:42:34.409">
+<file name="/root/cod-webgoat/WebGoat/webgoat-lessons/sql-injection/src/main/java/org/owasp/webgoat/sql_injection/advanced/SqlInjectionLesson6a.java">
+<violation beginline="58" endline="97" begincolumn="9" endcolumn="9" rule="AvoidConcatInAppend" ruleset="jpinpoint-rules" package="org.owasp.webgoat.sql_injection.advanced" class="SqlInjectionLesson6a" method="injectableQuery" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_performance.html#AvoidConcatInAppend" priority="2">
+Concatenation inside append. Use extra append.
+</violation>
+<violation beginline="62" endline="62" begincolumn="18" endcolumn="36" rule="AvoidImplicitlyRecompilingRegex" ruleset="jpinpoint-rules" package="org.owasp.webgoat.sql_injection.advanced" class="SqlInjectionLesson6a" method="injectableQuery" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-IREU01" priority="2">
+String regex method, Pattern.matches or FileSystem.getPathMatcher is used.     Implicitely compiles a regex pattern, can be expensive.
+</violation>
+<violation beginline="71" endline="71" begincolumn="34" endcolumn="60" rule="AvoidStringBuffer" ruleset="jpinpoint-rules" package="org.owasp.webgoat.sql_injection.advanced" class="SqlInjectionLesson6a" method="injectableQuery" variable="output" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-ISU01" priority="3">
+StringBuffer is used. It introduces locking overhead, use StringBuilder.
+</violation>
+</file>
+<file name="/root/cod-webgoat/WebGoat/webgoat-lessons/sql-injection/src/main/java/org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson10.java">
+<violation beginline="57" endline="57" begincolumn="22" endcolumn="48" rule="AvoidStringBuffer" ruleset="jpinpoint-rules" package="org.owasp.webgoat.sql_injection.introduction" class="SqlInjectionLesson10" method="injectableQueryAvailability" variable="output" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-ISU01" priority="3">
+StringBuffer is used. It introduces locking overhead, use StringBuilder.
+</violation>
+<violation beginline="60" endline="86" begincolumn="9" endcolumn="9" rule="AvoidConcatInAppend" ruleset="jpinpoint-rules" package="org.owasp.webgoat.sql_injection.introduction" class="SqlInjectionLesson10" method="injectableQueryAvailability" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_performance.html#AvoidConcatInAppend" priority="2">
+Concatenation inside append. Use extra append.
+</violation>
+</file>
+<file name="/root/cod-webgoat/WebGoat/webgoat-lessons/sql-injection/src/main/java/org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson2.java">
+<violation beginline="60" endline="76" begincolumn="9" endcolumn="9" rule="AvoidConcatInAppend" ruleset="jpinpoint-rules" package="org.owasp.webgoat.sql_injection.introduction" class="SqlInjectionLesson2" method="injectableQuery" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_performance.html#AvoidConcatInAppend" priority="2">
+Concatenation inside append. Use extra append.
+</violation>
+<violation beginline="63" endline="63" begincolumn="26" endcolumn="52" rule="AvoidStringBuffer" ruleset="jpinpoint-rules" package="org.owasp.webgoat.sql_injection.introduction" class="SqlInjectionLesson2" method="injectableQuery" variable="output" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-ISU01" priority="3">
+StringBuffer is used. It introduces locking overhead, use StringBuilder.
+</violation>
+</file>
+<file name="/root/cod-webgoat/WebGoat/webgoat-lessons/sql-injection/src/main/java/org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson3.java">
+<violation beginline="61" endline="83" begincolumn="9" endcolumn="9" rule="AvoidConcatInAppend" ruleset="jpinpoint-rules" package="org.owasp.webgoat.sql_injection.introduction" class="SqlInjectionLesson3" method="injectableQuery" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_performance.html#AvoidConcatInAppend" priority="2">
+Concatenation inside append. Use extra append.
+</violation>
+<violation beginline="67" endline="67" begincolumn="30" endcolumn="56" rule="AvoidStringBuffer" ruleset="jpinpoint-rules" package="org.owasp.webgoat.sql_injection.introduction" class="SqlInjectionLesson3" method="injectableQuery" variable="output" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-ISU01" priority="3">
+StringBuffer is used. It introduces locking overhead, use StringBuilder.
+</violation>
+</file>
+<file name="/root/cod-webgoat/WebGoat/webgoat-lessons/sql-injection/src/main/java/org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson4.java">
+<violation beginline="57" endline="75" begincolumn="9" endcolumn="9" rule="AvoidConcatInAppend" ruleset="jpinpoint-rules" package="org.owasp.webgoat.sql_injection.introduction" class="SqlInjectionLesson4" method="injectableQuery" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_performance.html#AvoidConcatInAppend" priority="2">
+Concatenation inside append. Use extra append.
+</violation>
+<violation beginline="62" endline="62" begincolumn="30" endcolumn="56" rule="AvoidStringBuffer" ruleset="jpinpoint-rules" package="org.owasp.webgoat.sql_injection.introduction" class="SqlInjectionLesson4" method="injectableQuery" variable="output" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-ISU01" priority="3">
+StringBuffer is used. It introduces locking overhead, use StringBuilder.
+</violation>
+</file>
+<file name="/root/cod-webgoat/WebGoat/webgoat-lessons/sql-injection/src/main/java/org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson5a.java">
+<violation beginline="59" endline="85" begincolumn="9" endcolumn="9" rule="AvoidConcatInAppend" ruleset="jpinpoint-rules" package="org.owasp.webgoat.sql_injection.introduction" class="SqlInjectionLesson5a" method="injectableQuery" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_performance.html#AvoidConcatInAppend" priority="2">
+Concatenation inside append. Use extra append.
+</violation>
+</file>
+<file name="/root/cod-webgoat/WebGoat/webgoat-lessons/sql-injection/src/main/java/org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson5b.java">
+<violation beginline="57" endline="96" begincolumn="9" endcolumn="9" rule="AvoidConcatInAppend" ruleset="jpinpoint-rules" package="org.owasp.webgoat.sql_injection.introduction" class="SqlInjectionLesson5b" method="injectableQuery" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_performance.html#AvoidConcatInAppend" priority="2">
+Concatenation inside append. Use extra append.
+</violation>
+<violation beginline="75" endline="75" begincolumn="34" endcolumn="60" rule="AvoidStringBuffer" ruleset="jpinpoint-rules" package="org.owasp.webgoat.sql_injection.introduction" class="SqlInjectionLesson5b" method="injectableQuery" variable="output" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-ISU01" priority="3">
+StringBuffer is used. It introduces locking overhead, use StringBuilder.
+</violation>
+</file>
+<file name="/root/cod-webgoat/WebGoat/webgoat-lessons/sql-injection/src/main/java/org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson8.java">
+<violation beginline="58" endline="58" begincolumn="22" endcolumn="48" rule="AvoidStringBuffer" ruleset="jpinpoint-rules" package="org.owasp.webgoat.sql_injection.introduction" class="SqlInjectionLesson8" method="injectableQueryConfidentiality" variable="output" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-ISU01" priority="3">
+StringBuffer is used. It introduces locking overhead, use StringBuilder.
+</violation>
+<violation beginline="61" endline="93" begincolumn="9" endcolumn="9" rule="AvoidConcatInAppend" ruleset="jpinpoint-rules" package="org.owasp.webgoat.sql_injection.introduction" class="SqlInjectionLesson8" method="injectableQueryConfidentiality" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_performance.html#AvoidConcatInAppend" priority="2">
+Concatenation inside append. Use extra append.
+</violation>
+<violation beginline="100" endline="100" begincolumn="22" endcolumn="47" rule="AvoidStringBuffer" ruleset="jpinpoint-rules" package="org.owasp.webgoat.sql_injection.introduction" class="SqlInjectionLesson8" method="generateTable" variable="table" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-ISU01" priority="3">
+StringBuffer is used. It introduces locking overhead, use StringBuilder.
+</violation>
+<violation beginline="103" endline="121" begincolumn="9" endcolumn="9" rule="AvoidConcatInAppend" ruleset="jpinpoint-rules" package="org.owasp.webgoat.sql_injection.introduction" class="SqlInjectionLesson8" method="generateTable" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_performance.html#AvoidConcatInAppend" priority="2">
+Concatenation inside append. Use extra append.
+</violation>
+<violation beginline="130" endline="130" begincolumn="36" endcolumn="51" rule="AvoidSimpleDateFormat" ruleset="jpinpoint-rules" package="org.owasp.webgoat.sql_injection.introduction" class="SqlInjectionLesson8" method="log" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-IDTF01" priority="2">
+SimpleDateFormat is used. Since it is thread-unsafe, it needs expensive recreation.
+</violation>
+</file>
+<file name="/root/cod-webgoat/WebGoat/webgoat-lessons/sql-injection/src/main/java/org/owasp/webgoat/sql_injection/introduction/SqlInjectionLesson9.java">
+<violation beginline="60" endline="60" begincolumn="22" endcolumn="48" rule="AvoidStringBuffer" ruleset="jpinpoint-rules" package="org.owasp.webgoat.sql_injection.introduction" class="SqlInjectionLesson9" method="injectableQueryIntegrity" variable="output" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-ISU01" priority="3">
+StringBuffer is used. It introduces locking overhead, use StringBuilder.
+</violation>
+<violation beginline="62" endline="86" begincolumn="9" endcolumn="9" rule="AvoidConcatInAppend" ruleset="jpinpoint-rules" package="org.owasp.webgoat.sql_injection.introduction" class="SqlInjectionLesson9" method="injectableQueryIntegrity" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_performance.html#AvoidConcatInAppend" priority="2">
+Concatenation inside append. Use extra append.
+</violation>
+<violation beginline="90" endline="107" begincolumn="9" endcolumn="9" rule="AvoidConcatInAppend" ruleset="jpinpoint-rules" package="org.owasp.webgoat.sql_injection.introduction" class="SqlInjectionLesson9" method="checkSalaryRanking" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_performance.html#AvoidConcatInAppend" priority="2">
+Concatenation inside append. Use extra append.
+</violation>
+</file>
+<file name="/root/cod-webgoat/WebGoat/webgoat-lessons/sql-injection/src/main/java/org/owasp/webgoat/sql_injection/mitigation/SqlInjectionLesson10b.java">
+<violation beginline="48" endline="48" begincolumn="40" endcolumn="48" rule="AvoidImplicitlyRecompilingRegex" ruleset="jpinpoint-rules" package="org.owasp.webgoat.sql_injection.mitigation" class="SqlInjectionLesson10b" method="completed" externalInfoUrl="http://www.jpinpoint.com/doc/Java+Code+Performance#JavaCodePerformance-IREU01" priority="2">
+String regex method, Pattern.matches or FileSystem.getPathMatcher is used.     Implicitely compiles a regex pattern, can be expensive.
+</violation>
+<violation beginline="74" endline="74" begincolumn="21" endcolumn="57" rule="AvoidConcatInLoop" ruleset="jpinpoint-rules" package="org.owasp.webgoat.sql_injection.mitigation" class="SqlInjectionLesson10b" method="completed" externalInfoUrl="${pmd.website.baseurl}/pmd_rules_performance.html#AvoidConcatInLoop" priority="2">
+A String is concatenated in a loop. Use StringBuilder.append.
+</violation>
+</file>
+</pmd>
